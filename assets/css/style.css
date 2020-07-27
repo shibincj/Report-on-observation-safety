@@ -116,6 +116,9 @@ header{
     background-color: #2B3891;
     border-color: #2B3891;
 }
+.risk{
+    padding: 0 114px;    
+}
 .risk table{
     position: relative;
     padding-right: 50px;    
@@ -189,11 +192,23 @@ header{
     font-size: 16px;
     color: #A8BEDF;
 }
+.ftd span, .lhd span{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    background-color: #A8BEDF;
+    color: #fff;
+}
+.lhd span{
+    margin-left: 10px;
+}
 .chrt-y{
     position: absolute;
     color: #A8BEDF;
-    right: -18px;
-    top: 145px;
+    right: 80px;
+    top: 164px;
     transform: rotate(-90deg);
 }
 
@@ -216,8 +231,15 @@ header{
     background-image: linear-gradient(-45deg, #C23D3D 50%, #E54847 50%);
 }
 
-@media (min-width: 1900px){
+.AmChartsLogo {display:none !important;}
+
+/* @media (min-width: 1900px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         min-width: 1530px;
     }
+} */
+
+.container{
+    width: 1600px;
+    max-width: inherit;
 }
